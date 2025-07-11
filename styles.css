@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+header, footer {
+  background-color: #f8f9fa;
+}
+
+.dark-mode header, .dark-mode footer {
+  background-color: #1e1e1e;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: contain;
+    width: 100%;
+  }
+  
+
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* fondo gris oscuro */
+  border-radius: 50%;
+}
